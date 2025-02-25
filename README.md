@@ -41,7 +41,8 @@ The default value is `2400`.
 ```json
 {
     "DFIntPerformanceControlFrameTimeMax": "1",
-    "DFIntPerformanceControlFrameTimeMaxUtility": "-1"
+    "DFIntPerformanceControlFrameTimeMaxUtility": "-1",
+    "DFIntGraphicsOptimizationModeMaxFrameTimeTargetMs": "25"
 }
 ```
 ## Remove this fflags
