@@ -34,7 +34,19 @@ The default value is `2400`.
 {
     "FIntInterpolationMaxDelayMSec": "125"
 }
-```  
+```
+## And delete this:
+```json
+{
+    "DFIntMaxAverageFrameDelayExceedFactor": "0"
+}
+```
+## Change to value 4:
+```json
+{
+    "DFIntMaxFrameBufferSize": "4"
+}
+```
 ---
 ## 3 Crashing While Moving the Camera Fast in Game
 #### Potential Problematic Flags:  
